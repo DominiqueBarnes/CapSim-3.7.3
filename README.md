@@ -21,3 +21,4 @@ CapSim is largely menu-driven program and gathers the input information by a ser
 •	Py2exe<br />
 
 To test the program, download Python 2.7 and the required modules. Then download all scripts and run 'capsim.py'. 
+***Updated to Python 3, no longer Python 2 compatible***
