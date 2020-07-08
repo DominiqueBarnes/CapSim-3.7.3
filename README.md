@@ -20,5 +20,14 @@ CapSim is largely menu-driven program and gathers the input information by a ser
 •	PIL<br />
 •	Py2exe<br />
 
-To test the program, download Python 2.7 and the required modules. Then download all scripts and run 'capsim.py'. 
-***Updated to Python 3, no longer Python 2 compatible***
+To test the program, download Python 3.7 and the required modules. Then download all scripts and run 'capsim.py'. 
+
+<b>Update summary</b><br />
+
+This version of CapSim was adapted for compatibility with Python 3. The following changes were made:<br />
+
+•	cPickle is no longer supported in Python 3, because the functionality was integrated into pickle. Replaced cPickle with pickle.<br />
+•	All files to be pickled or unpickled read and written in bytes instead of text, for compatibility with pickle.
+•	_winreg renamed to winreg
+•	FileDialog, MessageBox, and Font are now imported from the Tkinter package
+•	Replaced obsolete operator <> with synonym !=
